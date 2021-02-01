@@ -1,0 +1,22 @@
+main > div{
+    background-color: #fff;
+    box-shadow:  0px 0px 15px #0004;
+}
+.flex-classBV{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+
+}
+.display-4{
+    width: 100%;
+}
+hr{
+    width: 100%;
+}
+.votacao{
+    width: 100%;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}

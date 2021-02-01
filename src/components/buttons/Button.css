@@ -1,0 +1,65 @@
+:root {
+    --bg-button: #f0f0f0;
+    --border-button: solid 1px #888;
+}
+
+.button{
+  
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    font-size: 1.0em;
+    font-weight: 900;
+    width: 100%;
+    
+}
+
+.button:active{
+    background-color: #ccc;
+}
+.button.double {
+    grid-column:  span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+}
+
+button.operation{
+    background-color: #fa8231;
+    color: #fff;
+}
+
+.button.operation:active{
+    background-color: #fa8231cc;
+}
+
+.btn-res{
+    width: 12.5%;
+   
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label{
+    margin-right: 12px;
+    margin-bottom: 0px;
+}
+
